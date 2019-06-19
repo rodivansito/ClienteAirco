@@ -23,6 +23,11 @@ margin-bottom: 2rem;
     background-color: #007bc1;
 }
 
+
+.mobile {
+  display: none;
+}
+
 .fa-whatsapp  {
   color:#fff;
   background:
@@ -30,16 +35,7 @@ margin-bottom: 2rem;
   radial-gradient(circle at center, #25d366 63%,transparent 0);
 }
 
-.contact {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  align-items: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-  margin-left: 5rem;
 
-}
 
 .Contacto {
   background-color: #007bc1;
@@ -52,11 +48,12 @@ margin-bottom: 2rem;
 
  .fa-instagram  {
 
-    color: transparent;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    background-clip: text;
-    -webkit-background-clip: text;
+   color: transparent;
+   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+   background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+   background-clip: text;
+   -webkit-background-clip: text;
+   padding-right: 2rem;
 
 
 }
@@ -68,4 +65,44 @@ margin-bottom: 2rem;
 
 footer {
     background-color: #007bc1;
+}
+
+footer h1 {
+  color: white;
+}
+
+.last {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+}
+
+.last p {
+  font-size: 0.75rem;
+  color: white;
+}
+
+.last a {
+  color: white;
+  font-size: 0.75rem;
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width:576px){
+  .mobile {
+    display: inherit;
+  }
+
+  .wide {
+    display: none;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
 }

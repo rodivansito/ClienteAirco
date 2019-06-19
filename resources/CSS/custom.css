@@ -15,9 +15,10 @@ h1 {
 }
 
 p {
-  font-size: 1.5rem;
-  color: #44444C;
+  font-size: 1.2rem;
   font-family: 'Roboto', sans-serif;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 
 
@@ -25,6 +26,11 @@ p {
 
   background-color: #007bc1;
 
+}
+
+.btn:hover {
+  background-color: white;
+  color: #007bc1;
 }
 
 .jumbotron {
@@ -40,9 +46,7 @@ p {
 
 .fa-whatsapp  {
   color:#fff;
-  background:
-  linear-gradient(#25d366,#25d366)10px 84%/10px 9px no-repeat,
-  radial-gradient(circle at center, #25d366 63%,transparent 0);
+  padding-left: 1.5rem;
 }
 
 .contact {
@@ -72,18 +76,25 @@ p {
     background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     background-clip: text;
     -webkit-background-clip: text;
+    padding-right: 2rem;
 
 
 }
 
 .fa-phone {
-  color: #44444C;
-  
+  color: white;
+
 }
 
 footer {
-    background-color: #007bc1;
+background-color: #007bc1;
+
 }
+
+footer h1 {
+  color: white;
+}
+
 
 .divider {
   background-image: url('../images/Taller Panoramica.jpeg');
@@ -98,4 +109,61 @@ footer {
 .divider span {
   margin-top: 4.5rem;
   margin-bottom: 4.5rem;
+}
+
+.last {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+}
+
+.last p {
+  font-size: 0.75rem;
+  color: white;
+}
+
+.last a {
+  color: white;
+  font-size: 0.75rem;
+}
+
+.carousel-caption {
+  top: 65%;
+  bottom: auto;
+}
+
+.card-img-overlay {
+  top: 65%;
+  bottom: auto;
+}
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width:576px){
+
+.card-img-overlay {
+  top: 40%;
+  bottom: auto;
+}
+
+   #MainBanne btn {
+    width:100%;
+    padding-top: 0.7rem;
+    border: none;
+    border-width: medium;
+    white-space: normal;
+  }
+  #MainBanner .btn:hover {
+  
+  }
+
+  .acerca {
+    margin-top: 3rem;
+    font-size: 0.7rem;
+  }
+
+
 }

@@ -5,9 +5,7 @@ html {
 
 .fa-whatsapp  {
   color:#fff;
-  background:
-  linear-gradient(#25d366,#25d366)10px 84%/10px 9px no-repeat,
-  radial-gradient(circle at center, #25d366 63%,transparent 0);
+  padding-left: 2rem;
 }
 
 .contact {
@@ -21,7 +19,7 @@ html {
 
 }
 
-.Contacto {
+.contact {
   background-color: #007bc1;
   color: white;
 }
@@ -37,15 +35,25 @@ html {
     background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
     background-clip: text;
     -webkit-background-clip: text;
+    padding-right: 2rem;
 
 
+}
+
+footer {
+  background-color: #007bc1;
+  color: white;
+}
+.last {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.5rem;
+  color: orange;
 }
 
 .fa-phone {
   color: #44444C;
 
-}
-
-footer {
-    background-color: #007bc1;
 }
