@@ -130,12 +130,12 @@ footer h1 {
 }
 
 .carousel-caption {
-  top: 65%;
+  top: 60%;
   bottom: auto;
 }
 
 .card-img-overlay {
-  top: 65%;
+  top: 50%;
   bottom: auto;
 }
 
@@ -157,7 +157,7 @@ footer h1 {
     white-space: normal;
   }
   #MainBanner .btn:hover {
-  
+
   }
 
   .acerca {
