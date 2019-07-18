@@ -1,4 +1,8 @@
 /*General*/
+@font-face {
+  font-family: 'Open Sans';
+  src: url('Monotype  - CG Times Bold.otf') format('truetype');
+}
 
 html {
   font-size: 16px;
@@ -12,6 +16,7 @@ h1 {
   color: #007bc1;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+  font-family: 'CG Times Bold';
 }
 
 p {
@@ -21,16 +26,28 @@ p {
   padding-right: 1.5rem;
 }
 
+.acerca {
+  display: flex;
+  justify-content: center;
+}
 
 .btn {
+background-color: #007bc1;
+color: white;
+}
 
-  background-color: #007bc1;
+.btn-block {
+margin-top: 1rem;
+}
 
+.boton {
+  margin-left: 2rem;
 }
 
 .btn:hover {
   background-color: white;
   color: #007bc1;
+
 }
 
 .jumbotron {
@@ -141,13 +158,14 @@ footer h1 {
 }
 
 .card-img-overlay {
-  top: 50%;
+  top: 30%;
   bottom: auto;
 }
 
-.MainBanner img {
-opacity: 0.5;
+.Banner img {
+  opacity: 0.5;
 }
+
 
 /* MEDIA QUERIES */
 

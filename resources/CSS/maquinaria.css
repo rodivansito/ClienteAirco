@@ -10,13 +10,21 @@ h1 {
 }
 
 p {
-  color: gray;
+  color: ;
   font-size: 1.5rem;
 }
 
 .container {
 margin-top: 6rem;
 margin-bottom: 6rem;
+}
+
+.texto {
+display: block;
+justify-content: center;
+padding-left: 3rem;
+padding-right: 3rem;
+
 }
 
 .btn {
