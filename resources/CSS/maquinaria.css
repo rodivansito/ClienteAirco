@@ -101,13 +101,7 @@ footer h1 {
 /* MEDIA QUERIES */
 
 @media only screen and (max-width:576px){
-  .mobile {
-    display: inherit;
-  }
 
-  .wide {
-    display: none;
-  }
 
   img {
     width: 100%;
