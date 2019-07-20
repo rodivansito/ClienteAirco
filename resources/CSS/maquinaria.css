@@ -107,4 +107,9 @@ footer h1 {
     width: 100%;
     height: auto;
   }
+
+.btn {
+  margin-right: 1rem;
+  
+}
 }
