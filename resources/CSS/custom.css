@@ -89,7 +89,7 @@ margin-top: 1rem;
 }
 
 .fa-facebook-f {
-  color:#f7f7f7 ;
+  color:#f7f7f7;
 }
 
  .fa-instagram  {
@@ -173,9 +173,7 @@ footer h1 {
 
 @media only screen and (max-width: 992px) {
 
-.card img {
-  max-height: 270px;
-}
+
 
 }
 
