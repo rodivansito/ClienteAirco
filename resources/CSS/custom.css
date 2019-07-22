@@ -171,6 +171,14 @@ footer h1 {
 
 /* MEDIA QUERIES */
 
+@media only screen and (max-width: 992px) {
+
+.card img {
+  max-height: 270px;
+}
+
+}
+
 @media only screen and (max-width:576px){
 
 .card-img-overlay {
