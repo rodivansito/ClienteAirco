@@ -211,6 +211,9 @@ footer h1 {
   left: 50%;
 
 }
+.mobile {
+  display: none;
+}
 
 /* MEDIA QUERIES */
 
@@ -228,9 +231,17 @@ footer h1 {
 
 @media only screen and (max-width:576px){
 
+  .mobile {
+    display: initial;
+  }
+
 .card-img-overlay {
   top: 80%;
   bottom: auto;
+}
+
+.regular {
+  display: none;
 }
 
    #MainBanne btn {
