@@ -166,7 +166,7 @@ footer h1 {
 
 
 .card-img-overlay {
-  top:
+  top: 40%;
   bottom: auto;
 }
 
@@ -216,9 +216,9 @@ footer h1 {
 
 @media only screen and (min-width: 992px) {
 
-.Banner img {
-height: 560px;
-display:;
+.card-img-overlay .btn {
+  font-size: 1.5rem;
+  width: 10rem;
 }
 
 
