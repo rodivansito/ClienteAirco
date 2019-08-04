@@ -229,7 +229,7 @@ footer h1 {
 @media only screen and (max-width:576px){
 
 .card-img-overlay {
-  top: 40%;
+  top: 80%;
   bottom: auto;
 }
 
