@@ -10,6 +10,13 @@ html {
 
 }
 
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+
+
 h1 {
   font-size: 2rem;
   font-weight: bold;
