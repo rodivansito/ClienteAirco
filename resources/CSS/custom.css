@@ -94,9 +94,12 @@ margin-top: 1rem;
 
 }
 
-.fa-whatsapp  {
+.whasap .fa-whatsapp  {
+ color: white;
+}
+
+ footer .fa-whatsapp  {
   color:#25d366;
-  
 }
 
 .contact {
